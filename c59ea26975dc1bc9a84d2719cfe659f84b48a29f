@@ -247,6 +247,24 @@
     },
     {
       "key": {
+        "uuid": "8b9cf110_f22eb68a",
+        "filename": "src/main/java/org/onap/ves/openapi/manager/service/ArtifactsCollector.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 105
+      },
+      "writtenOn": "2021-02-08T19:08:58Z",
+      "side": 1,
+      "message": "I actually find the code CLEARER using \u003c2 and 0 and 1.",
+      "parentUuid": "09130cd9_4d23e378",
+      "revId": "c59ea26975dc1bc9a84d2719cfe659f84b48a29f",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "a21b41a3_0a98b236",
         "filename": "src/main/java/org/onap/ves/openapi/manager/service/ClientCallback.java",
         "patchSetId": 1
@@ -276,6 +294,24 @@
       "side": 1,
       "message": "It\u0027s used somewhere else.",
       "parentUuid": "a21b41a3_0a98b236",
+      "revId": "c59ea26975dc1bc9a84d2719cfe659f84b48a29f",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ef64ec10_097e6ff7",
+        "filename": "src/main/java/org/onap/ves/openapi/manager/service/ClientCallback.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 105
+      },
+      "writtenOn": "2021-02-08T19:08:58Z",
+      "side": 1,
+      "message": "ack",
+      "parentUuid": "86bb9d0e_e514446c",
       "revId": "c59ea26975dc1bc9a84d2719cfe659f84b48a29f",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": false
@@ -486,6 +522,24 @@
       "side": 1,
       "message": "Done",
       "parentUuid": "46b5391d_993e971e",
+      "revId": "c59ea26975dc1bc9a84d2719cfe659f84b48a29f",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5498d279_17c22bce",
+        "filename": "src/main/java/org/onap/ves/openapi/manager/service/validation/SchemaReferenceValidator.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 105
+      },
+      "writtenOn": "2021-02-08T19:08:58Z",
+      "side": 1,
+      "message": "ack",
+      "parentUuid": "1a38aafd_dec8e93c",
       "revId": "c59ea26975dc1bc9a84d2719cfe659f84b48a29f",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": false
