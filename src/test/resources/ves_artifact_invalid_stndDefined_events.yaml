@@ -1,0 +1,107 @@
+---
+event:
+  presence: required
+  action: [ any, any, null, null, null ]
+  comment: "
+        ALARM NAME: LogHasReachedFullCapacity,
+        ALARM DESCRIPTION: 'Log Has Reached Full Capacity',
+        ALARM EFFECT: 'See alarm OPI x/2223-ABC 123 4567/1 Uen',
+        MANAGED OBJECT CLASSES: Log,
+        EVENT TYPE: 'PROCESSINGERRORALARM',
+        PROBABLE CAUSE: 'FileError',
+        PROPOSED REPAIR ACTIONS: 'See alarm OPI x/3334-ABC 123 4567/1 Uen',
+        CLEARING TYPE: Automatic
+    "
+  structure:
+    commonEventHeader:
+      presence: required
+      structure:
+        version: {presence: required, value: 4.0.1}
+        vesEventListenerVersion: {presence: required, value: 7.0.1}
+        domain: {presence: required, value: fault}
+        eventName: {presence: required, value: Fault_MyPnf-Acme_LogHasReachedFullCapacity}
+        eventId: {presence: required}
+        sequence: {presence: required}
+        priority: {presence: required, value: Normal}
+        reportingEntityName: {presence: required}
+        sourceName: {presence: required}
+        nfVendorName: {presence: required, value: Acme}
+        startEpochMicrosec: {presence: required}
+        lastEpochMicrosec: {presence: required}
+        timeZoneOffset: {presence: required}
+    faultFields:
+      presence: required
+      structure:
+        faultFieldsVersion: {presence: required, value: 4.0}
+        alarmCondition: {presence: required, value: 'LogHasReachedFullCapacity'}
+        eventCategory: {presence: required, value: 'PROCESSINGERRORALARM'}
+        eventSourceType: {presence: required}
+        specificProblem: {presence: required, value: 'Log Has Reached Full Capacity'}
+        eventSeverity: {presence: required}
+        vfStatus: {presence: required, value: Active}
+        alarmAdditionalInformation: {presence: required, structure: {
+          keyValuePair: {presence: required, structure: {key: {presence: required, value: source},value: {presence: required}}},
+          keyValuePair: {presence: required, structure: {key: {presence: required, value: probableCause},value: {presence: required, value: 'FileError'}}},
+          keyValuePair: {presence: required, structure: {key: {presence: required, value: additionalText},value: {presence: optional}}},
+          keyValuePair: {presence: required, structure: {key: {presence: required, value: additionalInfo},value: {presence: optional}}}}
+        }
+...
+---
+event:
+  presence: required
+  comment: "stndDefined event to support 3GPP FaultSupervision NotifyNewAlarm notification"
+  structure:
+    commonEventHeader:
+      presence: required
+      structure:
+        domain: {presence: required, value: stndDefined}
+        eventName: {presence: required, value: stndDefined-gNB-Nokia-Notification}
+        priority: {presence: required, value: Normal}
+        eventId: {presence: required}
+        reportingEntityId: {presence: required}
+        reportingEntityName: {presence: required}
+        sequence: {presence: required, value: 0}
+        sourceId: {presence: required}
+        sourceName: {presence: required}
+        version: {presence: required, value: 4.1}
+        vesEventListenerVersion: {presence: required, value: 7.2}
+        startEpochMicrosec: {presence: required}
+        lastEpochMicrosec: {presence: required}
+        stndDefinedNamespace: {presence: required, value: "3GPP-FaultSupervision"}
+    stndDefinedFields:
+      presence: required
+      structure:
+        schemaReference: { presence: required, value: "https://forge.3gpp.org/rep/invalid" }
+        data: {presence: required}
+        stndDefinedFieldsVersion: {presence: required, value: "1.0"}
+
+...
+---
+event:
+  presence: required
+  comment: "stndDefined event to support 3GPP FaultSupervision NotifyNewAlarm notification"
+  structure:
+    commonEventHeader:
+      presence: required
+      structure:
+        domain: {presence: required, value: stndDefined}
+        eventName: {presence: required, value: stndDefined-gNB-Nokia-Notification}
+        priority: {presence: required, value: Normal}
+        eventId: {presence: required}
+        reportingEntityId: {presence: required}
+        reportingEntityName: {presence: required}
+        sequence: {presence: required, value: 0}
+        sourceId: {presence: required}
+        sourceName: {presence: required}
+        version: {presence: required, value: 4.1}
+        vesEventListenerVersion: {presence: required, value: 7.2}
+        startEpochMicrosec: {presence: required}
+        lastEpochMicrosec: {presence: required}
+        stndDefinedNamespace: {presence: required, value: "3GPP-FaultSupervision"}
+    stndDefinedFields:
+      presence: required
+      structure:
+        schemaReference: { presence: required, value: ["https://forge.3gpp.org/rep/sa5/MnS/tree/another_invalid.yaml", "https://forge.3gpp.org/rep/sa5/MnS/tree/SA88-Rel16/OpenAPI/PerfDataStreamingMnS.yaml"] }
+        data: {presence: required}
+        stndDefinedFieldsVersion: {presence: required, value: "1.0"}
+...
