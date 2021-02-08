@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  ves-openapi-manager:
+    image: ves-openapi-manager:latest
+    container_name: ves-openapi-manager
+    hostname: ves-openapi-manager
+    environment:
+      - SCHEMA_MAP_PATH=/app/schema-map.json
+      - ASDC_ADDRESS=sdc-be.onap:30204
+    network_mode: host
