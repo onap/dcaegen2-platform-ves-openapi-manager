@@ -1,0 +1,67 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bc9e6bb7_2bf561b1",
+        "filename": "Dockerfile",
+        "patchSetId": 4
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2021-02-08T17:57:01Z",
+      "side": 1,
+      "message": "Switch to ONAP base image - onap/integration-java11:8.0.0",
+      "range": {
+        "startLine": 1,
+        "startChar": 5,
+        "endLine": 1,
+        "endChar": 24
+      },
+      "revId": "6d164eecea15c67577e838eaaad891b369b37d56",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d9c39658_ba46e28c",
+        "filename": "README.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2021-02-08T17:57:01Z",
+      "side": 1,
+      "message": "Add steps on how local build can be done and tested",
+      "revId": "6d164eecea15c67577e838eaaad891b369b37d56",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "734997a9_522708a3",
+        "filename": "pom.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2021-02-08T17:57:01Z",
+      "side": 1,
+      "message": "3.2.0 recommended for new components (https://wiki.onap.org/pages/viewpage.action?pageId\u003d10783020)",
+      "range": {
+        "startLine": 10,
+        "startChar": 17,
+        "endLine": 10,
+        "endChar": 22
+      },
+      "revId": "6d164eecea15c67577e838eaaad891b369b37d56",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
