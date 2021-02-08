@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "ecc7adff_9c259520",
+        "filename": "pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 5234
+      },
+      "writtenOn": "2021-02-08T14:41:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c56e1eae_fa8d0771",
+      "revId": "c59ea26975dc1bc9a84d2719cfe659f84b48a29f",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "f7740b4f_6d192694",
         "filename": "pom.xml",
         "patchSetId": 1
@@ -33,6 +51,24 @@
       "revId": "c59ea26975dc1bc9a84d2719cfe659f84b48a29f",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "86fcf4bb_2af8d68e",
+        "filename": "pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 205,
+      "author": {
+        "id": 5234
+      },
+      "writtenOn": "2021-02-08T14:41:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f7740b4f_6d192694",
+      "revId": "c59ea26975dc1bc9a84d2719cfe659f84b48a29f",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
     },
     {
       "key": {
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "2b642574_b5f70dc7",
+        "filename": "src/main/java/org/onap/ves/openapi/manager/Main.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 5234
+      },
+      "writtenOn": "2021-02-08T14:41:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a39ec631_238d9272",
+      "revId": "c59ea26975dc1bc9a84d2719cfe659f84b48a29f",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "69dc75ca_0c39c04a",
         "filename": "src/main/java/org/onap/ves/openapi/manager/config/DistributionClientConfig.java",
         "patchSetId": 1
@@ -67,6 +121,24 @@
       "revId": "c59ea26975dc1bc9a84d2719cfe659f84b48a29f",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "489752ad_05e77f8e",
+        "filename": "src/main/java/org/onap/ves/openapi/manager/config/DistributionClientConfig.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 5234
+      },
+      "writtenOn": "2021-02-08T14:41:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "69dc75ca_0c39c04a",
+      "revId": "c59ea26975dc1bc9a84d2719cfe659f84b48a29f",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
     },
     {
       "key": {
@@ -87,6 +159,24 @@
     },
     {
       "key": {
+        "uuid": "ce429f68_4b4945bc",
+        "filename": "src/main/java/org/onap/ves/openapi/manager/config/ValidatorProperties.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 5234
+      },
+      "writtenOn": "2021-02-08T14:41:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1023598d_b650b3db",
+      "revId": "c59ea26975dc1bc9a84d2719cfe659f84b48a29f",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "85a7218f_3b5742c1",
         "filename": "src/main/java/org/onap/ves/openapi/manager/exceptions/ArtifactException.java",
         "patchSetId": 1
@@ -101,6 +191,24 @@
       "revId": "c59ea26975dc1bc9a84d2719cfe659f84b48a29f",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f1a2885b_48a1e65b",
+        "filename": "src/main/java/org/onap/ves/openapi/manager/exceptions/ArtifactException.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 5234
+      },
+      "writtenOn": "2021-02-08T14:41:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "85a7218f_3b5742c1",
+      "revId": "c59ea26975dc1bc9a84d2719cfe659f84b48a29f",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
     },
     {
       "key": {
@@ -121,6 +229,24 @@
     },
     {
       "key": {
+        "uuid": "09130cd9_4d23e378",
+        "filename": "src/main/java/org/onap/ves/openapi/manager/service/ArtifactsCollector.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 5234
+      },
+      "writtenOn": "2021-02-08T14:41:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0e77632c_3253fd13",
+      "revId": "c59ea26975dc1bc9a84d2719cfe659f84b48a29f",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "a21b41a3_0a98b236",
         "filename": "src/main/java/org/onap/ves/openapi/manager/service/ClientCallback.java",
         "patchSetId": 1
@@ -138,6 +264,24 @@
     },
     {
       "key": {
+        "uuid": "86bb9d0e_e514446c",
+        "filename": "src/main/java/org/onap/ves/openapi/manager/service/ClientCallback.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 5234
+      },
+      "writtenOn": "2021-02-08T14:41:47Z",
+      "side": 1,
+      "message": "It\u0027s used somewhere else.",
+      "parentUuid": "a21b41a3_0a98b236",
+      "revId": "c59ea26975dc1bc9a84d2719cfe659f84b48a29f",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "c80f75f9_b7d27ca7",
         "filename": "src/main/java/org/onap/ves/openapi/manager/service/notification/ArtifactsCollectorStatusSender.java",
         "patchSetId": 1
@@ -149,6 +293,24 @@
       "writtenOn": "2021-02-08T12:25:56Z",
       "side": 1,
       "message": "create",
+      "revId": "c59ea26975dc1bc9a84d2719cfe659f84b48a29f",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "78bb0e1a_58cf5707",
+        "filename": "src/main/java/org/onap/ves/openapi/manager/service/notification/ArtifactsCollectorStatusSender.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 5234
+      },
+      "writtenOn": "2021-02-08T14:41:47Z",
+      "side": 1,
+      "message": "Is there any reason why \u0027create\u0027 is better?\n\nImo \u0027get\u0027 indicates that this method will create AND return something,\nwhile \u0027create\u0027 might create, but let\u0027s say save it in e.g. DB (without returning).",
+      "parentUuid": "c80f75f9_b7d27ca7",
       "revId": "c59ea26975dc1bc9a84d2719cfe659f84b48a29f",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": true
@@ -172,6 +334,24 @@
     },
     {
       "key": {
+        "uuid": "cd914048_6fd1411b",
+        "filename": "src/main/java/org/onap/ves/openapi/manager/service/notification/ArtifactsCollectorStatusSender.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 5234
+      },
+      "writtenOn": "2021-02-08T14:41:47Z",
+      "side": 1,
+      "message": "as in comment above",
+      "parentUuid": "824738f0_73e8d87a",
+      "revId": "c59ea26975dc1bc9a84d2719cfe659f84b48a29f",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "37fa368f_4d402fe2",
         "filename": "src/main/java/org/onap/ves/openapi/manager/service/notification/ValidationStatusSender.java",
         "patchSetId": 1
@@ -183,6 +363,24 @@
       "writtenOn": "2021-02-08T12:25:56Z",
       "side": 1,
       "message": "create",
+      "revId": "c59ea26975dc1bc9a84d2719cfe659f84b48a29f",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0b63ce13_7ea3ce94",
+        "filename": "src/main/java/org/onap/ves/openapi/manager/service/notification/ValidationStatusSender.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 5234
+      },
+      "writtenOn": "2021-02-08T14:41:47Z",
+      "side": 1,
+      "message": "As above, is there any reason why \u0027create\u0027 is better?",
+      "parentUuid": "37fa368f_4d402fe2",
       "revId": "c59ea26975dc1bc9a84d2719cfe659f84b48a29f",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": true
@@ -206,6 +404,24 @@
     },
     {
       "key": {
+        "uuid": "74a16851_6c4fa6ac",
+        "filename": "src/main/java/org/onap/ves/openapi/manager/service/serialization/SchemaMapDeserializer.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 5234
+      },
+      "writtenOn": "2021-02-08T14:41:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7110bd32_6ce5cf4d",
+      "revId": "c59ea26975dc1bc9a84d2719cfe659f84b48a29f",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "adfc13cf_5ad55c1d",
         "filename": "src/main/java/org/onap/ves/openapi/manager/service/serialization/SchemaMapDeserializer.java",
         "patchSetId": 1
@@ -223,6 +439,24 @@
     },
     {
       "key": {
+        "uuid": "3808a93d_53b6c38a",
+        "filename": "src/main/java/org/onap/ves/openapi/manager/service/serialization/SchemaMapDeserializer.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 5234
+      },
+      "writtenOn": "2021-02-08T14:41:47Z",
+      "side": 1,
+      "message": "Nothing implements AutoClosable interface there. Done.",
+      "parentUuid": "adfc13cf_5ad55c1d",
+      "revId": "c59ea26975dc1bc9a84d2719cfe659f84b48a29f",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "46b5391d_993e971e",
         "filename": "src/main/java/org/onap/ves/openapi/manager/service/validation/SchemaReferenceValidator.java",
         "patchSetId": 1
@@ -237,6 +471,24 @@
       "revId": "c59ea26975dc1bc9a84d2719cfe659f84b48a29f",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1a38aafd_dec8e93c",
+        "filename": "src/main/java/org/onap/ves/openapi/manager/service/validation/SchemaReferenceValidator.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 5234
+      },
+      "writtenOn": "2021-02-08T14:41:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "46b5391d_993e971e",
+      "revId": "c59ea26975dc1bc9a84d2719cfe659f84b48a29f",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
     }
   ]
 }
