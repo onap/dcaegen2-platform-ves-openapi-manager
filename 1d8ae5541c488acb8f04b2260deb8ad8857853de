@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "2835b4fb_400a8787",
+        "filename": "pom.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 5234
+      },
+      "writtenOn": "2021-02-09T15:19:16Z",
+      "side": 1,
+      "message": "That was my bad, I should have pushed 1.4.2.\nI\u0027m working locally on mirror version of SDC Client 1.4.2.",
+      "parentUuid": "42d5cdd1_ffbdfdcc",
+      "range": {
+        "startLine": 21,
+        "startChar": 6,
+        "endLine": 21,
+        "endChar": 91
+      },
+      "revId": "1d8ae5541c488acb8f04b2260deb8ad8857853de",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5be5de82_bbe5fe3d",
         "filename": "pom.xml",
         "patchSetId": 5
@@ -45,6 +69,30 @@
       "revId": "1d8ae5541c488acb8f04b2260deb8ad8857853de",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "14ac9269_c81587b5",
+        "filename": "pom.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 5234
+      },
+      "writtenOn": "2021-02-09T15:19:16Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5be5de82_bbe5fe3d",
+      "range": {
+        "startLine": 33,
+        "startChar": 5,
+        "endLine": 33,
+        "endChar": 46
+      },
+      "revId": "1d8ae5541c488acb8f04b2260deb8ad8857853de",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
     }
   ]
 }
