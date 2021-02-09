@@ -371,6 +371,24 @@
     },
     {
       "key": {
+        "uuid": "08803fea_3ca0e88a",
+        "filename": "src/main/java/org/onap/ves/openapi/manager/service/notification/ArtifactsCollectorStatusSender.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 5234
+      },
+      "writtenOn": "2021-02-09T15:27:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "78bb0e1a_58cf5707",
+      "revId": "c59ea26975dc1bc9a84d2719cfe659f84b48a29f",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "824738f0_73e8d87a",
         "filename": "src/main/java/org/onap/ves/openapi/manager/service/notification/ArtifactsCollectorStatusSender.java",
         "patchSetId": 1
@@ -406,6 +424,24 @@
     },
     {
       "key": {
+        "uuid": "51db7921_7b3f381f",
+        "filename": "src/main/java/org/onap/ves/openapi/manager/service/notification/ArtifactsCollectorStatusSender.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 5234
+      },
+      "writtenOn": "2021-02-09T15:27:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "cd914048_6fd1411b",
+      "revId": "c59ea26975dc1bc9a84d2719cfe659f84b48a29f",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "37fa368f_4d402fe2",
         "filename": "src/main/java/org/onap/ves/openapi/manager/service/notification/ValidationStatusSender.java",
         "patchSetId": 1
@@ -438,6 +474,24 @@
       "revId": "c59ea26975dc1bc9a84d2719cfe659f84b48a29f",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ca306b3d_7a3c7d0f",
+        "filename": "src/main/java/org/onap/ves/openapi/manager/service/notification/ValidationStatusSender.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 5234
+      },
+      "writtenOn": "2021-02-09T15:27:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0b63ce13_7ea3ce94",
+      "revId": "c59ea26975dc1bc9a84d2719cfe659f84b48a29f",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
     },
     {
       "key": {
