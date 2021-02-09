@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "42d5cdd1_ffbdfdcc",
+        "filename": "pom.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 5597
+      },
+      "writtenOn": "2021-02-09T12:27:43Z",
+      "side": 1,
+      "message": "NO snapshots please.\nReleased SDC-Distribution-Client images only!",
+      "range": {
+        "startLine": 21,
+        "startChar": 6,
+        "endLine": 21,
+        "endChar": 91
+      },
+      "revId": "1d8ae5541c488acb8f04b2260deb8ad8857853de",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5be5de82_bbe5fe3d",
+        "filename": "pom.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 5597
+      },
+      "writtenOn": "2021-02-09T12:27:43Z",
+      "side": 1,
+      "message": "Spring boot 2.4.2 available.",
+      "range": {
+        "startLine": 33,
+        "startChar": 5,
+        "endLine": 33,
+        "endChar": 46
+      },
+      "revId": "1d8ae5541c488acb8f04b2260deb8ad8857853de",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
