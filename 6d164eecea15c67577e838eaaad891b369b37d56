@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "5256674c_f14c6224",
+        "filename": "Dockerfile",
+        "patchSetId": 4
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 5234
+      },
+      "writtenOn": "2021-02-09T12:05:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bc9e6bb7_2bf561b1",
+      "range": {
+        "startLine": 1,
+        "startChar": 5,
+        "endLine": 1,
+        "endChar": 24
+      },
+      "revId": "6d164eecea15c67577e838eaaad891b369b37d56",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "d9c39658_ba46e28c",
         "filename": "README.md",
         "patchSetId": 4
@@ -65,6 +89,30 @@
     },
     {
       "key": {
+        "uuid": "37718155_fbe5cc21",
+        "filename": "pom.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 5234
+      },
+      "writtenOn": "2021-02-09T12:05:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "734997a9_522708a3",
+      "range": {
+        "startLine": 10,
+        "startChar": 17,
+        "endLine": 10,
+        "endChar": 22
+      },
+      "revId": "6d164eecea15c67577e838eaaad891b369b37d56",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1c0ef942_6eaefa03",
         "filename": "src/main/java/org/onap/ves/openapi/manager/model/FinalDistributionStatusMessage.java",
         "patchSetId": 4
@@ -79,6 +127,24 @@
       "revId": "6d164eecea15c67577e838eaaad891b369b37d56",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "dd6d4e07_6dabe1fe",
+        "filename": "src/main/java/org/onap/ves/openapi/manager/model/FinalDistributionStatusMessage.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 5234
+      },
+      "writtenOn": "2021-02-09T12:05:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1c0ef942_6eaefa03",
+      "revId": "6d164eecea15c67577e838eaaad891b369b37d56",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
     },
     {
       "key": {
@@ -99,6 +165,24 @@
     },
     {
       "key": {
+        "uuid": "0bcec105_79c2705a",
+        "filename": "src/main/java/org/onap/ves/openapi/manager/model/SchemaMap.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 5234
+      },
+      "writtenOn": "2021-02-09T12:05:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "39937ef4_c70c086a",
+      "revId": "6d164eecea15c67577e838eaaad891b369b37d56",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da5a4baa_338f9979",
         "filename": "src/main/java/org/onap/ves/openapi/manager/service/notification/FinalStatusSender.java",
         "patchSetId": 4
@@ -113,6 +197,24 @@
       "revId": "6d164eecea15c67577e838eaaad891b369b37d56",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ced59a3f_30e2da7a",
+        "filename": "src/main/java/org/onap/ves/openapi/manager/service/notification/FinalStatusSender.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 5234
+      },
+      "writtenOn": "2021-02-09T12:05:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da5a4baa_338f9979",
+      "revId": "6d164eecea15c67577e838eaaad891b369b37d56",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
     },
     {
       "key": {
@@ -133,6 +235,24 @@
     },
     {
       "key": {
+        "uuid": "b2798a33_08373452",
+        "filename": "src/main/java/org/onap/ves/openapi/manager/service/notification/ValidationStatusSender.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 5234
+      },
+      "writtenOn": "2021-02-09T12:05:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c407875b_cc30d551",
+      "revId": "6d164eecea15c67577e838eaaad891b369b37d56",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "c40e56c6_5beed1fd",
         "filename": "src/main/java/org/onap/ves/openapi/manager/service/serialization/SchemaMapDeserializer.java",
         "patchSetId": 4
@@ -150,6 +270,24 @@
     },
     {
       "key": {
+        "uuid": "a9ce3bff_18e9337b",
+        "filename": "src/main/java/org/onap/ves/openapi/manager/service/serialization/SchemaMapDeserializer.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 5234
+      },
+      "writtenOn": "2021-02-09T12:05:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c40e56c6_5beed1fd",
+      "revId": "6d164eecea15c67577e838eaaad891b369b37d56",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "af5bba8e_130a4311",
         "filename": "src/main/java/org/onap/ves/openapi/manager/service/serialization/VesEventsArtifactDeserializer.java",
         "patchSetId": 4
@@ -164,6 +302,24 @@
       "revId": "6d164eecea15c67577e838eaaad891b369b37d56",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "bea49df0_3efe3945",
+        "filename": "src/main/java/org/onap/ves/openapi/manager/service/serialization/VesEventsArtifactDeserializer.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 5234
+      },
+      "writtenOn": "2021-02-09T12:05:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "af5bba8e_130a4311",
+      "revId": "6d164eecea15c67577e838eaaad891b369b37d56",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
     }
   ]
 }

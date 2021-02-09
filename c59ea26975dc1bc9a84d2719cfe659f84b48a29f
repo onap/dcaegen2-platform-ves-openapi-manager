@@ -265,6 +265,24 @@
     },
     {
       "key": {
+        "uuid": "2a6d912f_1e38b5c8",
+        "filename": "src/main/java/org/onap/ves/openapi/manager/service/ArtifactsCollector.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 5234
+      },
+      "writtenOn": "2021-02-09T12:05:35Z",
+      "side": 1,
+      "message": "I agree, in this case magic numbers are clear enough, but they will be probably visible in Sonar as code smells, so I would leave them as consts.",
+      "parentUuid": "8b9cf110_f22eb68a",
+      "revId": "c59ea26975dc1bc9a84d2719cfe659f84b48a29f",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "a21b41a3_0a98b236",
         "filename": "src/main/java/org/onap/ves/openapi/manager/service/ClientCallback.java",
         "patchSetId": 1
