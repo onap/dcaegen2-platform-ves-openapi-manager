@@ -1,0 +1,106 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2782d4df_1f1ccedd",
+        "filename": "pom.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 3433
+      },
+      "writtenOn": "2021-02-10T09:00:31Z",
+      "side": 1,
+      "message": "you need to add file as in ves\n\nhttps://gerrit.onap.org/r/gitweb?p\u003ddcaegen2/collectors/ves.git;a\u003dblob;f\u003dversion.properties;h\u003d6501a4a65d2e5fea73e927a729a279781241ed3c;hb\u003drefs/heads/master\n\nin this file pls set version to 1.0.0",
+      "revId": "fc56b5aa76a792eddf8fa38e09f8c5300aad2a34",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7ff68fe1_233fb452",
+        "filename": "src/test/java/org/onap/ves/openapi/manager/service/testModel/Resource.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 3433
+      },
+      "writtenOn": "2021-02-10T09:00:31Z",
+      "side": 1,
+      "message": "it could be replaced by: Stream.generate(()-\u003enew ArtifactInfo(DistributionClientConfig.VES_EVENTS_ARTIFACT_TYPE)).limit(numberOfArtifacts).collect(Collectors.toList());",
+      "revId": "fc56b5aa76a792eddf8fa38e09f8c5300aad2a34",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2db692a5_0107f5bb",
+        "filename": "src/test/java/org/onap/ves/openapi/manager/service/testModel/Resource.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 3433
+      },
+      "writtenOn": "2021-02-10T09:00:31Z",
+      "side": 1,
+      "message": "it could be replaced by\n\nresources.stream().map(it -\u003e new Resource(it)).collect(Collectors.toList());",
+      "revId": "fc56b5aa76a792eddf8fa38e09f8c5300aad2a34",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d44213db_b8d6b43e",
+        "filename": "src/test/java/org/onap/ves/openapi/manager/service/testModel/Resource.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 125,
+      "author": {
+        "id": 3433
+      },
+      "writtenOn": "2021-02-10T09:00:31Z",
+      "side": 1,
+      "message": "pls use https://docs.oracle.com/javase/7/docs/api/java/util/Collections.html#unmodifiableList(java.util.List)",
+      "revId": "fc56b5aa76a792eddf8fa38e09f8c5300aad2a34",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4f0e7308_2173dd62",
+        "filename": "src/test/java/org/onap/ves/openapi/manager/service/testModel/Service.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 3433
+      },
+      "writtenOn": "2021-02-10T09:00:31Z",
+      "side": 1,
+      "message": "https://docs.oracle.com/javase/7/docs/api/java/util/Collections.html#unmodifiableList(java.util.List)",
+      "revId": "fc56b5aa76a792eddf8fa38e09f8c5300aad2a34",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "612c776f_4195b4e5",
+        "filename": "src/test/java/org/onap/ves/openapi/manager/service/testModel/Service.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 140,
+      "author": {
+        "id": 3433
+      },
+      "writtenOn": "2021-02-10T09:00:31Z",
+      "side": 1,
+      "message": "https://docs.oracle.com/javase/7/docs/api/java/util/Collections.html#unmodifiableList(java.util.List)",
+      "revId": "fc56b5aa76a792eddf8fa38e09f8c5300aad2a34",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
