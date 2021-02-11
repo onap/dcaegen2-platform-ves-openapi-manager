@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "267a106b_64d2e8dd",
+        "filename": "pom.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 5234
+      },
+      "writtenOn": "2021-02-11T02:14:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2782d4df_1f1ccedd",
+      "revId": "fc56b5aa76a792eddf8fa38e09f8c5300aad2a34",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7ff68fe1_233fb452",
         "filename": "src/test/java/org/onap/ves/openapi/manager/service/testModel/Resource.java",
         "patchSetId": 8
@@ -33,6 +51,24 @@
       "revId": "fc56b5aa76a792eddf8fa38e09f8c5300aad2a34",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2f75f4ba_645de397",
+        "filename": "src/test/java/org/onap/ves/openapi/manager/service/testModel/Resource.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 5234
+      },
+      "writtenOn": "2021-02-11T02:14:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7ff68fe1_233fb452",
+      "revId": "fc56b5aa76a792eddf8fa38e09f8c5300aad2a34",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
     },
     {
       "key": {
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "9f9af00b_c1459a82",
+        "filename": "src/test/java/org/onap/ves/openapi/manager/service/testModel/Resource.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 5234
+      },
+      "writtenOn": "2021-02-11T02:14:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2db692a5_0107f5bb",
+      "revId": "fc56b5aa76a792eddf8fa38e09f8c5300aad2a34",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "d44213db_b8d6b43e",
         "filename": "src/test/java/org/onap/ves/openapi/manager/service/testModel/Resource.java",
         "patchSetId": 8
@@ -67,6 +121,24 @@
       "revId": "fc56b5aa76a792eddf8fa38e09f8c5300aad2a34",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d6ed2880_f5dc5a32",
+        "filename": "src/test/java/org/onap/ves/openapi/manager/service/testModel/Resource.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 125,
+      "author": {
+        "id": 5234
+      },
+      "writtenOn": "2021-02-11T02:14:15Z",
+      "side": 1,
+      "message": "I used List.copyOf() from Java 9 instead. It\u0027s also immutable. Done.",
+      "parentUuid": "d44213db_b8d6b43e",
+      "revId": "fc56b5aa76a792eddf8fa38e09f8c5300aad2a34",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
     },
     {
       "key": {
@@ -87,6 +159,24 @@
     },
     {
       "key": {
+        "uuid": "937f46d8_e32eb865",
+        "filename": "src/test/java/org/onap/ves/openapi/manager/service/testModel/Service.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 5234
+      },
+      "writtenOn": "2021-02-11T02:14:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4f0e7308_2173dd62",
+      "revId": "fc56b5aa76a792eddf8fa38e09f8c5300aad2a34",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "612c776f_4195b4e5",
         "filename": "src/test/java/org/onap/ves/openapi/manager/service/testModel/Service.java",
         "patchSetId": 8
@@ -101,6 +191,24 @@
       "revId": "fc56b5aa76a792eddf8fa38e09f8c5300aad2a34",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "243eb6c2_2a994a3c",
+        "filename": "src/test/java/org/onap/ves/openapi/manager/service/testModel/Service.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 140,
+      "author": {
+        "id": 5234
+      },
+      "writtenOn": "2021-02-11T02:14:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "612c776f_4195b4e5",
+      "revId": "fc56b5aa76a792eddf8fa38e09f8c5300aad2a34",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
     }
   ]
 }
