@@ -12,7 +12,7 @@ build:
 
 docker:
 	@echo "Building ves-openapi-manager docker image"
-	@$(DOCKER) build --tag ves-openapi-manager:latest .
+	@$(DOCKER) build --tag $(IMAGE):latest .
 
 run:
 	@echo "Starting ves-openapi-manager docker containers"
