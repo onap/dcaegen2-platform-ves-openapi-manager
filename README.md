@@ -65,4 +65,20 @@ Results of validation are visible in two places:
 - In SDC UI in Service -> Distributions view under specific distribution as component *ves-openapi-manager*.
   It might take few minutes to show results after service distribution.
 - In logs of ves-openapi-manager, right after validation takes place.
-  
+
+## Docker image
+
+### Building
+There are at least two ways to build docker image.
+
+Using makefile:
+```
+make build docker
+```
+
+Direct creation with mvn: 
+```
+mvn clean package docker:build
+```
+
+Image will be named: *onap/org.onap.dcaegen2.platform.ves-openapi-manager*
