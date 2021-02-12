@@ -18,7 +18,7 @@
  * ============LICENSE_END=========================================================
  */
 
-package org.onap.ves.openapi.manager.service.notification;
+package org.onap.ves.openapi.manager.service;
 
 import org.junit.jupiter.api.Test;
 import org.onap.sdc.api.notification.IArtifactInfo;

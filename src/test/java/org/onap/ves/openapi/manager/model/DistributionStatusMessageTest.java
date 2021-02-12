@@ -29,7 +29,7 @@ import java.time.ZoneOffset;
 import static org.assertj.core.api.Assertions.assertThat;
 
 
-public class DistributionStatusMessageTest {
+class DistributionStatusMessageTest {
     @Test
     void shouldCreateDistributionStatusMessage() {
         //given

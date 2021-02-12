@@ -40,7 +40,6 @@
         <docker-image.name.prefix>org.onap.dcaegen2.platform</docker-image.name.prefix>
         <maven.build.timestamp.format>yyyyMMdd'T'HHmmss</maven.build.timestamp.format>
         <maven-compiler-plugin.version>3.5.1</maven-compiler-plugin.version>
-        <bean-matchers.version>0.13</bean-matchers.version>
     </properties>
 
     <build>
@@ -205,12 +204,6 @@
             <groupId>org.mockito</groupId>
             <artifactId>mockito-core</artifactId>
             <version>${mockito-core.version}</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>com.google.code.bean-matchers</groupId>
-            <artifactId>bean-matchers</artifactId>
-            <version>${bean-matchers.version}</version>
             <scope>test</scope>
         </dependency>
     </dependencies>

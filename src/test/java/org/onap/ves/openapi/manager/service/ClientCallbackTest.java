@@ -18,7 +18,7 @@
  * ============LICENSE_END=========================================================
  */
 
-package org.onap.ves.openapi.manager.service.notification;
+package org.onap.ves.openapi.manager.service;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -28,8 +28,9 @@ import org.onap.sdc.api.notification.IArtifactInfo;
 import org.onap.sdc.api.notification.INotificationData;
 import org.onap.ves.openapi.manager.model.Artifact;
 import org.onap.ves.openapi.manager.model.ArtifactValidationResult;
-import org.onap.ves.openapi.manager.service.ArtifactsCollector;
-import org.onap.ves.openapi.manager.service.ClientCallback;
+import org.onap.ves.openapi.manager.service.notification.ArtifactsCollectorStatusSender;
+import org.onap.ves.openapi.manager.service.notification.FinalStatusSender;
+import org.onap.ves.openapi.manager.service.notification.ValidationStatusSender;
 import org.onap.ves.openapi.manager.service.testModel.Service;
 import org.onap.ves.openapi.manager.service.validation.ArtifactsValidator;
 
@@ -107,7 +108,7 @@ class ClientCallbackTest {
         // then
         verifyMockedMethodCalls(testParameters, numberOfPulledArtefacts);
         for(ArtifactsValidator validator: extraValidators) {
-            verify(validator, times(1)).validate(eq(testParameters.getExpectedPulledArtifacts()));
+            verify(validator, times(1)).validate(testParameters.getExpectedPulledArtifacts());
         }
     }
 
@@ -137,10 +138,10 @@ class ClientCallbackTest {
     }
 
     private void verifyMockedMethodCalls(ExpectedTestParameters testParameters, int numberOfPulledArtifacts) {
-        verify(artifactsCollector, times(1)).pullArtifacts(eq(testParameters.getExpectedArtifactsList()));
+        verify(artifactsCollector, times(1)).pullArtifacts(testParameters.getExpectedArtifactsList());
         verify(artifactsCollectorStatusSender, times(numberOfPulledArtifacts)).sendDownloadOk(any(), eq(testParameters.getExpectedArtifactsList()));
         verify(validationStatusSender, times(1)).send(any(), eq(testParameters.getExpectedValidationResults()));
-        validators.forEach(validator -> verify(validator, times(1)).validate(eq(testParameters.getExpectedPulledArtifacts())));
+        validators.forEach(validator -> verify(validator, times(1)).validate(testParameters.getExpectedPulledArtifacts()));
     }
 
     @Getter
