@@ -1,0 +1,8 @@
+Code-Review+1: Bogumil Zebek <bogumil.zebek@nokia.com>
+Code-Review+2: Remigiusz Janeczek <remigiusz.janeczek@nokia.com>
+Verified+1: ONAP Jobbuilder <onap-jobbuilder@jenkins.onap.org>
+Submitted-by: Remigiusz Janeczek <remigiusz.janeczek@nokia.com>
+Submitted-at: Mon, 15 Feb 2021 13:17:13 +0000
+Reviewed-on: https://gerrit.onap.org/r/c/dcaegen2/platform/ves-openapi-manager/+/117844
+Project: dcaegen2/platform/ves-openapi-manager
+Branch: refs/heads/master
