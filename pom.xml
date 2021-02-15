@@ -11,7 +11,7 @@
         <relativePath/>
     </parent>
 
-    <groupId>org.onap.dcaegen2.platform</groupId>
+    <groupId>org.onap.dcaegen2.platform.ves-openapi-manager</groupId>
     <artifactId>ves-openapi-manager</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
