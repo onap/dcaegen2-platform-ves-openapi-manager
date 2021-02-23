@@ -30,6 +30,7 @@ matching the schemas which VES Collector contains.
    ```
    make port-forwarding
    ```
+
 ## How to locally start ves-openapi-manager
 Currently, there are two common ways to run application, both described below.
 
@@ -37,7 +38,7 @@ Currently, there are two common ways to run application, both described below.
 Right click on Main class, then Run or Debug button.
 
 ### Start as Docker container
-Run:
+Run (from other terminal than used for port-forwarding):
 ```
 make all
 ```
