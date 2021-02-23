@@ -10,3 +10,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
         - [DCAEGEN2-2573](https://jira.onap.org/browse/DCAEGEN2-2573) - Update image building
         - [DCAEGEN2-2573](https://jira.onap.org/browse/DCAEGEN2-2573) - Add the suffix -SNAPSHOT to fix CI
         - [DCAEGEN2-2573](https://jira.onap.org/browse/DCAEGEN2-2573) - Fix groupId
+
+## [1.0.1] - 23/02/2021
+        - [DCAEGEN2-2574](https://jira.onap.org/browse/DCAEGEN2-2574) - Add healthcheck controller
