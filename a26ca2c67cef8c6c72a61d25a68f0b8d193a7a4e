@@ -1,0 +1,7 @@
+Verified+1: ONAP Jobbuilder <onap-jobbuilder@jenkins.onap.org>
+Code-Review+2: Tony Hansen <tony@att.com>
+Submitted-by: Tony Hansen <tony@att.com>
+Submitted-at: Thu, 16 Sep 2021 19:41:58 +0000
+Reviewed-on: https://gerrit.onap.org/r/c/dcaegen2/platform/ves-openapi-manager/+/124258
+Project: dcaegen2/platform/ves-openapi-manager
+Branch: refs/heads/master
