@@ -1,0 +1,9 @@
+distribution_type: 'container'
+git_tag: '1.1.0'
+container_release_tag: '1.1.0'
+project: 'dcaegen2-platform-ves-openapi-manager'
+log_dir: 'dcaegen2-platform-ves-openapi-manager-maven-docker-stage-master/392/'
+ref: 514df09462968920406877d6508027d72a9b957e
+containers:
+  - name: 'org.onap.dcaegen2.platform.ves-openapi-manager'
+    version: '1.1.0-20220303T143829Z'
