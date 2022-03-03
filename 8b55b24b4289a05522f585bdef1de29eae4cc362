@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d610ebd4_00bc1b83",
+        "filename": "releases/1.1.0-container.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2022-03-03T14:56:36Z",
+      "side": 1,
+      "message": "include git_tag property - \ngit_tag: \u00271.1.0\u0027",
+      "revId": "8b55b24b4289a05522f585bdef1de29eae4cc362",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
