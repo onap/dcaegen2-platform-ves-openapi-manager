@@ -32,7 +32,8 @@
 
     <groupId>org.onap.dcaegen2.platform.ves-openapi-manager</groupId>
     <artifactId>ves-openapi-manager</artifactId>
-    <version>1.2.0-SNAPSHOT</version>
+    <version>1.2.0</version>
+    <name>dcaegen2-platform-ves-openapi-manager</name>
     <packaging>jar</packaging>
 
     <properties>
@@ -59,6 +60,7 @@
         <docker-image.name.prefix>org.onap.dcaegen2.platform</docker-image.name.prefix>
         <maven.build.timestamp.format>yyyyMMdd'T'HHmmss</maven.build.timestamp.format>
         <maven-compiler-plugin.version>3.5.1</maven-compiler-plugin.version>
+        <containerName>org.onap.dcaegen2.platform.ves-openapi-manager</containerName>
     </properties>
 
     <build>
