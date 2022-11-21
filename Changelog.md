@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+
+## [1.3.0] - 2022/11/??
+        - [DMAAP-1809](https://jira.onap.org/browse/DMAAP-1809)
+                - Move ves-openapi-manager to use sdc-distro-client version 2.0.0
+
 ## [1.2.0] - 2022/08/19
         - [DCAEGEN2-3215](https://jira.onap.org/browse/DCAEGEN2-3215)
                 - Update spring to version 2.7.2
