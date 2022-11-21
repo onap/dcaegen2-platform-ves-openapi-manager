@@ -3,6 +3,7 @@
  * VES-OPENAPI-MANAGER
  * ================================================================================
  * Copyright (C) 2021 Nokia. All rights reserved.
+ * Copyright © 2022 Nordix Foundation. All rights reserved.
  * ================================================================================
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -38,8 +39,7 @@ class DistributionClientConfigTest {
     @Test
     void shouldCreateDistributionClientConfig() {
         //given
-        String asdcAddress = "sdc-be.onap:8443";
-        String msgBusAddress = "message-router.onap";
+        String sdcAddress = "sdc-be.onap:8443";
         String user = "dcae";
         String password = "Kp8bJ4SXszM0WXlhak3eHlcse2gAw84vaoGGmJvUy2U";
         Integer pollingInterval = 20;
@@ -48,8 +48,7 @@ class DistributionClientConfigTest {
         String environmentName = "AUTO";
         String consumerID = "ves-openapi-manager";
         Map<String, Object> properties = new HashMap<>();
-        properties.put("vesopenapimanager.distribution.asdcAddress", asdcAddress);
-        properties.put("vesopenapimanager.distribution.msgBusAddress", msgBusAddress);
+        properties.put("vesopenapimanager.distribution.sdcAddress", sdcAddress);
         properties.put("vesopenapimanager.distribution.user", user);
         properties.put("vesopenapimanager.distribution.password", password);
         properties.put("vesopenapimanager.distribution.pollingInterval", pollingInterval);
@@ -59,7 +58,6 @@ class DistributionClientConfigTest {
         properties.put("vesopenapimanager.distribution.consumerID", consumerID);
         properties.put("vesopenapimanager.distribution.activateServerTLSAuth", false);
         properties.put("vesopenapimanager.distribution.isFilterInEmptyResources", false);
-        properties.put("vesopenapimanager.distribution.isUseHttpsWithDmaap", false);
         ConfigurationPropertySource source = new MapConfigurationPropertySource(properties);
         Binder binder = new Binder(source);
 
@@ -69,8 +67,7 @@ class DistributionClientConfigTest {
         //then
         assertThat(result.isBound()).isTrue();
         DistributionClientConfig config = result.get();
-        assertThat(config.getAsdcAddress()).isEqualTo(asdcAddress);
-        assertThat(config.getMsgBusAddress()).isEqualTo(List.of(msgBusAddress));
+        assertThat(config.getSdcAddress()).isEqualTo(sdcAddress);
         assertThat(config.getUser()).isEqualTo(user);
         assertThat(config.getPassword()).isEqualTo(password);
         assertThat(config.getPollingInterval()).isEqualTo(pollingInterval);
@@ -84,6 +81,5 @@ class DistributionClientConfigTest {
         assertThat(config.activateServerTLSAuth()).isFalse();
         assertThat(config.isFilterInEmptyResources()).isFalse();
         assertThat(config.activateServerTLSAuth()).isFalse();
-        assertThat(config.isUseHttpsWithDmaap()).isFalse();
     }
 }

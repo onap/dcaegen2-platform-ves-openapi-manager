@@ -3,6 +3,7 @@
  * VES-OPENAPI-MANAGER
  * ================================================================================
  * Copyright (C) 2021 Nokia. All rights reserved.
+ * Copyright © 2022 Nordix Foundation. All rights reserved.
  * ================================================================================
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -40,8 +41,7 @@ public class DistributionClientConfig implements IConfiguration {
 
     public static final String VES_EVENTS_ARTIFACT_TYPE = "VES_EVENTS";
 
-    private String asdcAddress;
-    private String msgBusAddress;
+    private String sdcAddress;
     private String user;
     private String password;
     private Integer pollingInterval;
@@ -51,16 +51,14 @@ public class DistributionClientConfig implements IConfiguration {
     private String consumerID;
     private Boolean activateServerTLSAuth;
     private Boolean isFilterInEmptyResources;
-    private Boolean isUseHttpsWithDmaap;
+    private String httpProxyHost;
+    private int httpProxyPort;
+    private String httpsProxyHost;
+    private int httpsProxyPort;
 
     @Override
-    public String getAsdcAddress() {
-        return asdcAddress;
-    }
-
-    @Override
-    public List<String> getMsgBusAddress() {
-        return Collections.singletonList(msgBusAddress);
+    public String getSdcAddress() {
+        return sdcAddress;
     }
 
     @Override
@@ -124,7 +122,22 @@ public class DistributionClientConfig implements IConfiguration {
     }
 
     @Override
-    public Boolean isUseHttpsWithDmaap() {
-        return isUseHttpsWithDmaap;
+    public String getHttpProxyHost() {
+        return httpProxyHost;
+    }
+
+    @Override
+    public int getHttpProxyPort() {
+        return httpProxyPort;
+    }
+
+    @Override
+    public String getHttpsProxyHost() {
+        return httpsProxyHost;
+    }
+
+    @Override
+    public int getHttpsProxyPort() {
+        return httpsProxyPort;
     }
 }
