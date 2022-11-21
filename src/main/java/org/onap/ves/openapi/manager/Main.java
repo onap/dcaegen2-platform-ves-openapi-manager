@@ -20,11 +20,12 @@
 
 package org.onap.ves.openapi.manager;
 
+import java.util.List;
 import lombok.extern.log4j.Log4j2;
 import org.onap.sdc.api.results.IDistributionClientResult;
-import org.onap.sdc.http.HttpAsdcClient;
 import org.onap.sdc.http.HttpClientFactory;
 import org.onap.sdc.http.HttpRequestFactory;
+import org.onap.sdc.http.HttpSdcClient;
 import org.onap.sdc.http.SdcConnectorClient;
 import org.onap.sdc.impl.DistributionClientImpl;
 import org.onap.ves.openapi.manager.config.DistributionClientConfig;
@@ -38,8 +39,6 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.context.annotation.Bean;
-
-import java.util.List;
 
 @Log4j2
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
@@ -58,7 +57,7 @@ public class Main {
     public SdcConnectorClient getSdcConnectorClient(DistributionClientConfig clientConfig) {
         HttpRequestFactory requestFactory = new HttpRequestFactory(clientConfig.getUser(), clientConfig.getPassword());
         HttpClientFactory clientFactory = new HttpClientFactory(clientConfig);
-        return new SdcConnectorClient(clientConfig, new HttpAsdcClient(clientConfig.getAsdcAddress(), clientFactory, requestFactory));
+        return new SdcConnectorClient(clientConfig, new HttpSdcClient(clientConfig.getSdcAddress(), clientFactory, requestFactory));
     }
 
     /**
