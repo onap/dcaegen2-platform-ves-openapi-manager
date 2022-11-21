@@ -7,5 +7,5 @@ services:
     hostname: ves-openapi-manager
     environment:
       - SCHEMA_MAP_PATH=/app/schema-map.json
-      - ASDC_ADDRESS=sdc-be.onap:30204
+      - SDC_ADDRESS=sdc-be.onap:30204
     network_mode: host
