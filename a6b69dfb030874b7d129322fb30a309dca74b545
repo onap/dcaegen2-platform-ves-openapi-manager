@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e55aea21_5a76002c",
+        "filename": "Changelog.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2022-11-28T14:26:09Z",
+      "side": 1,
+      "message": "specify here the date the change was submitted into gerrit which should be 11/21 for this change",
+      "range": {
+        "startLine": 8,
+        "startChar": 21,
+        "endLine": 8,
+        "endChar": 23
+      },
+      "revId": "a6b69dfb030874b7d129322fb30a309dca74b545",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
