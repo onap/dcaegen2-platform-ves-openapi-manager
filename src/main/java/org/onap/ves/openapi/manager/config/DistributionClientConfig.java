@@ -3,7 +3,7 @@
  * VES-OPENAPI-MANAGER
  * ================================================================================
  * Copyright (C) 2021 Nokia. All rights reserved.
- * Copyright © 2022 Nordix Foundation. All rights reserved.
+ * Copyright © 2022-2023 Nordix Foundation. All rights reserved.
  * ================================================================================
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -50,6 +50,7 @@ public class DistributionClientConfig implements IConfiguration {
     private String environmentName;
     private String consumerID;
     private Boolean activateServerTLSAuth;
+    private Boolean isUseHttpsWithSDC;
     private Boolean isFilterInEmptyResources;
     private String httpProxyHost;
     private int httpProxyPort;
@@ -59,6 +60,11 @@ public class DistributionClientConfig implements IConfiguration {
     @Override
     public String getSdcAddress() {
         return sdcAddress;
+    }
+
+    @Override
+    public Boolean isUseHttpsWithSDC() {
+        return isUseHttpsWithSDC;
     }
 
     @Override

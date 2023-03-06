@@ -6,6 +6,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [1.3.1] - 2023/02/06
             - [DCAEGEN2-3342] - dcaegen2-platform-ves-openapi-manager vulnerability updates
+            - [DCAEGEN2-3335] - dcae-ves-openapi-manager cannot use HTTP interface of SDC
 
 ## [1.3.0] - 2022/11/12
         - [DMAAP-1809](https://jira.onap.org/browse/DMAAP-1809)
