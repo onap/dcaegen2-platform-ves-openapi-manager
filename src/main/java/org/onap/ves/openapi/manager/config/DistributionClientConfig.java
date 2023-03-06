@@ -50,6 +50,7 @@ public class DistributionClientConfig implements IConfiguration {
     private String environmentName;
     private String consumerID;
     private Boolean activateServerTLSAuth;
+    private Boolean isUseHttpsWithSDC;
     private Boolean isFilterInEmptyResources;
     private String httpProxyHost;
     private int httpProxyPort;
@@ -59,6 +60,11 @@ public class DistributionClientConfig implements IConfiguration {
     @Override
     public String getSdcAddress() {
         return sdcAddress;
+    }
+
+    @Override
+    public Boolean isUseHttpsWithSDC() {
+        return isUseHttpsWithSDC;
     }
 
     @Override
