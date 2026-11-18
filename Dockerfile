@@ -1,4 +1,8 @@
-FROM onap/integration-java11:8.0.0
-COPY ./src/main/resources/schema-map.json /app/schema-map.json
-COPY target/ves-openapi-manager.jar /app/
-ENTRYPOINT java -jar /app/ves-openapi-manager.jar
+FROM eclipse-temurin:17-jre-alpine
+
+RUN addgroup -S -g 101 onap && adduser -S -u 1000 -G onap onap \
+    && mkdir -p /app && chown onap:onap /app
+WORKDIR /app
+COPY src/main/resources/schema-map.json target/ves-openapi-manager.jar /app/
+USER onap
+ENTRYPOINT ["java", "-jar", "/app/ves-openapi-manager.jar"]
