@@ -4,6 +4,9 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [Unreleased]
+            - [DCAEGEN2-3335] - Bump the development version to 1.4.0-SNAPSHOT.
+
 ## [1.3.1] - 2023/02/06
             - [DCAEGEN2-3342] - dcaegen2-platform-ves-openapi-manager vulnerability updates
             - [DCAEGEN2-3335] - dcae-ves-openapi-manager cannot use HTTP interface of SDC
