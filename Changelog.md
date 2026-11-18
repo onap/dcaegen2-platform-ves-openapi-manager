@@ -5,6 +5,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [1.4.0] - Unreleased
+            - [DCAEGEN2-3342] - Upgrade to Spring Boot 3.5 and Java 17, update embedded Tomcat and Jackson, and use a floating Alpine runtime base.
             - [DCAEGEN2-3335] - Bump the development version to 1.4.0-SNAPSHOT.
 
 ## [1.3.1] - 2023/02/06
